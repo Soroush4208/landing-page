@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 40px;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(181, 200, 255);
+    border-radius: 15px;
+    box-shadow: -1px 5px 7px 1px #565252;
+    padding: 10px;
+}
+.img-section2{
+    /* max-width: 60%; */
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
+.title-section2{
+    max-width: 70%;
+    text-align: justify;
+    color: rgba(49, 49, 49, 0.685);
+    /* flex-wrap: wrap; */
+}
