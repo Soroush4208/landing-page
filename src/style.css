@@ -27,3 +27,47 @@
     color: rgba(49, 49, 49, 0.685);
     /* flex-wrap: wrap; */
 }
+body{
+    width: 100vw;
+}
+.forth-section-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.forth-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 12px;
+    margin: 8px;
+    border: 2px solid;
+}
+
+.forth-paragraph{
+    border: 1px solid darkgray;
+    padding: 8px;
+}
+
+.forth-section-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forth-section-inputs{
+    margin: 8px;
+}
+
+.forth-section-input{
+    border: 1px solid gray;
+}
+
+.submit-btn{
+    margin: 8px;
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
